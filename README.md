@@ -1,9 +1,9 @@
 # Mouli_BSQ
 
-# git clone https://github.com/ThisisYoYoDev/Mouli_BSQ.git
+#### git clone https://github.com/ThisisYoYoDev/Mouli_BSQ.git
 
 Replace my executable (./bsq) with yours.
 
 use : "./mouli_bsq_V2.sh"
 
-Made by YoYo <3
+Made by YoYo :two_hearts:
