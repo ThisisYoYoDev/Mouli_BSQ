@@ -319,6 +319,44 @@ else
 fi
 echo -e "${vertclair}DATE DE FIN :"
 date
+neutre='\e[0;m'
+echo -e ""
+echo -e "${violetclair}Basic Test fini - Debut des tests d'erreur"
+echo -e ""
+./bsq error_maps/error_map1 &> /dev/null
+if [ "$?" -eq 84 ]
+then
+    echo -e "${cyanclair}error_map1 \e[32mPASSED\e[39m"
+else
+    echo -e "${cyanclair}error_map1 \e[91mFAIL\e[39m"
+fi
+
+./bsq error_maps/error_map2 &> /dev/null
+if [ "$?" -eq 84 ]
+then
+    echo -e "${cyanclair}error_map2 \e[32mPASSED\e[39m"
+else
+    echo -e "${cyanclair}error_map2 \e[91mFAIL\e[39m"
+fi
+
+./bsq error_maps/error_map3 &> /dev/null
+if [ "$?" -eq 84 ]
+then
+    echo -e "${cyanclair}error_map3 \e[32mPASSED\e[39m"
+else
+    echo -e "${cyanclair}error_map3 \e[91mFAIL\e[39m"
+fi
+
+./bsq error_maps/error_map4 &> /dev/null
+if [ "$?" -eq 84 ]
+then
+    echo -e "${cyanclair}error_map4 \e[32mPASSED\e[39m"
+else
+    echo -e "${cyanclair}error_map4 \e[91mFAIL\e[39m"
+fi
+echo -e ""
+
 violetclair='\e[1;35m'
 echo -e "${violetclair}By Yoel Enjoy <3"
+echo -e "${neutre}"
 rm -f saveres
