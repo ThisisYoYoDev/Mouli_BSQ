@@ -8,4 +8,4 @@ use : "./mouli_bsq_V2.sh"
 
 Made by YoYo :two_hearts:
 
-![alt text](https://i.ibb.co/t3TSSNn/Mouli-antman.png)
+![alt text](https://i.ibb.co/WVXH190/mouli-bsq.png)
